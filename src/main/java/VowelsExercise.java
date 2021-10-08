@@ -14,6 +14,10 @@ public class VowelsExercise {
 public static String noVowels(String str) {
     String regex = "[aeiouAEIOU]";
     return str.replaceAll(regex, "");
+    /* Lower case option:
+    String regex = "[aeiou]";
+    return (str.toLowerCase()).replaceAll(regex, "");
+     */
 }
 
 }
