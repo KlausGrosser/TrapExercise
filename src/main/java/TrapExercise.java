@@ -13,7 +13,7 @@ public class TrapExercise {
 
     }
 
-    public static int trapFinder(String sourceText){
+    public static String trapFinder(String sourceText){
         Pattern p = Pattern.compile("trap");
 
         Matcher m = p.matcher(sourceText);
@@ -23,7 +23,7 @@ public class TrapExercise {
         } else {
             System.out.println("Relax, there's no trap.");
         }
-return m.groupCount();
+return "Thank you for using TrapFinder";
         }
 
 
