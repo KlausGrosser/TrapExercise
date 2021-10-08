@@ -19,12 +19,7 @@ public class TrapExercise {
 
         Matcher m = p.matcher(sourceText.toLowerCase());
 
-        if(m.find()) {
-            System.out.println("BOO!!");
-        } else {
-            System.out.println("Relax, there's no trap.");
-        }
-return "Thank you for using TrapFinder";
+        return m.find() ? "BOO!!" : "Relax, there's no trap.";
         }
 
 
