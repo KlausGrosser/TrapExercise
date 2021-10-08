@@ -13,8 +13,7 @@ public class VowelsExercise {
     }
 public static String noVowels(String str) {
     String regex = "[aeiouAEIOU]";
-    String result;
-    return result = str.replaceAll(regex, "");
+    return str.replaceAll(regex, "");
 }
 
 }
