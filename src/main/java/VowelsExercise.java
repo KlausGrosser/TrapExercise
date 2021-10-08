@@ -12,12 +12,13 @@ public class VowelsExercise {
         System.out.println(noVowels(input));
     }
 public static String noVowels(String str) {
-    String regex = "[aeiouAEIOU]";
-    return str.replaceAll(regex, "");
+    //String regex = "[aeiouAEIOU]";
+    return str.replaceAll("[aeiouAEIOU]", "");
     /* Lower case option:
     String regex = "[aeiou]";
     return (str.toLowerCase()).replaceAll(regex, "");
      */
 }
+
 
 }
