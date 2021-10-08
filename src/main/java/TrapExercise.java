@@ -17,7 +17,7 @@ public class TrapExercise {
     public static String trapFinder(String sourceText){
         Pattern p = Pattern.compile("trap");
 
-        Matcher m = p.matcher(sourceText);
+        Matcher m = p.matcher(sourceText.toLowerCase());
 
         if(m.find()) {
             System.out.println("BOO!!");
