@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class TrapExercise {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Welcome to TrapFinder");
         System.out.println("Enter your message to see if there are any traps inside it: ");
         String input = sc.nextLine();
         System.out.println(trapFinder(input));
